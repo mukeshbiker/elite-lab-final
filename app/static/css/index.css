@@ -4,6 +4,7 @@
  */
 
 /* -------- Index Style -------- */
+
 .hero-section {
   position: relative;
   text-align: center;
@@ -21,29 +22,31 @@
 }
 
 .hero-section h1 {
-  font-size: 1.5rem;
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 .text-overlay {
   position: absolute;
-  top: 50%;
+  top: 45%;
 
   width: 100%;
 
   text-align: center;
 
-  color: #8b8b8b;
+  color: #fada5e;
 }
 
 .hero-under-banner {
-  background-color: #f7f7f7;
+  background-color: #ace5ee;
 
   text-align: center;
-  font-family: Montserrat, sans-serif;
-  font-size: 10px;
-  line-height: 18px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 6px;
   text-transform: uppercase;
 }
 
@@ -52,44 +55,51 @@
 }
 
 .page-content-container {
+  background-color: #f3cdff;
+  max-width: 1000px;
+}
+
+.page-content-container2 {
   max-width: 1000px;
 }
 
 .blurb-section {
   margin-top: 50px;
   margin-bottom: 100px;
-
+  background-color: #f3cdff;
   text-align: center;
-  font-family: Montserrat,
-    sans-serif;
-  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 2px;
 }
 
 .blurb-section p {
+  background-color: #f3cdff;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
 .section-header {
-  font-family: Oswald, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 5px;
-
+  background-color: #f3cdff;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .section-content {
+  background-color: #f3cdff;
   margin-top: 10px;
 }
 
 .section-content-header {
-  font-family: Oswald,
-    sans-serif;
+  background-color: #f3cdff;
+  font-family: Helvetica, sans-serif;
   color: #353538;
   font-size: 18px;
   line-height: 20px;
@@ -101,7 +111,7 @@
 .time-span {
   margin-top: 3px;
 
-  color: #8b8b8b;
+  color: #000000;
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -111,8 +121,7 @@
 .section-content-inner {
   margin-top: 10px;
 
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 16px;
 }
@@ -139,7 +148,7 @@
 
 .interest-img-holder img {
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 .award-space-bottom {
@@ -176,7 +185,7 @@
 
   .section-content-inner {
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 18px;
   }
 
@@ -198,15 +207,15 @@
   padding-top: 50px;
   padding-bottom: 50px;
 
-  background-color: #f7f7f7;
+  background-color: #cbf1b0;
 }
 
 .contact-me-text {
-  font-family: Oswald, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   line-height: 24px;
-  font-weight: 400;
-  letter-spacing: 5px;
+  font-weight: bolder;
+  letter-spacing: 3px;
 }
 
 .contact-icons div {
